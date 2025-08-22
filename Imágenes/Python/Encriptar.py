@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+texto = input("Ingresa el mensaje que deseas encriptar: ").upper()
+texto = texto.replace ("M", "0")
+texto = texto.replace ("U", "1")
+texto = texto.replace ("R", "2")
+texto = texto.replace ("C", "3")
+texto = texto.replace ("I", "4")
+texto = texto.replace ("E", "5")
+texto = texto.replace ("L", "6")
+texto = texto.replace ("A", "7")
+texto = texto.replace ("G", "8")
+texto = texto.replace ("O", "9")
+print(texto)

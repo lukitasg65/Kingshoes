@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+texto = input("Ingresa el mensaje que deseas descifrar: ").lower()
+texto = texto.replace ("0", "m")
+texto = texto.replace ("1", "u")
+texto = texto.replace ("2", "r")
+texto = texto.replace ("3", "c")
+texto = texto.replace ("4", "i")
+texto = texto.replace ("5", "e")
+texto = texto.replace ("6", "l")
+texto = texto.replace ("7", "a")
+texto = texto.replace ("8", "g")
+texto = texto.replace ("9", "o")
+print(texto)
